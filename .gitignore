@@ -1,0 +1,56 @@
+# Ignore virtual environment
+venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+# Ignore virtual environment
+venv/
+
+# Ignore video datasets
+data/raw/
+data/processed/
+*.mp4
+*.avi
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+frames/
+venv/
+
+# Ignore large data and models
+data/
+!data/.gitkeep
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.pt
+
+# Ignore virtual env and cache
+venv/
+__pycache__/
+
+# Ignore data and videos
+data/
+frames/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Ignore model weights
+*.pt
+*.pth
+*.onnx
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.zip
